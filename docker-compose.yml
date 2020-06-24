@@ -2,8 +2,6 @@ version: '2'
 services:
     httpbin:
       build: 'modules/httpbin/.'
-      ports:
-        - '80:80'
     ngrok:
       image: wernight/ngrok
       ports:
@@ -12,3 +10,12 @@ services:
         - httpbin
       environment:
         - NGROK_PORT=httpbin:80
+    launchpad:
+      image: php:buster
+      command: php -S 0.0.0.0:3030 /app/index.php
+      ports:
+        - "3030:3030"
+      volumes:
+        - ./modules/launchpad:/app
+      links:
+        - ngrok
