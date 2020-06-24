@@ -16,7 +16,7 @@ To exit:
 ```sh
 ctrl+c
 ```
-Find out your Ngrok URL when you load your Request Inspector at http://localhost:4040
+Load up the Launchpad to find your Ngrok and HTTPBin URLs http://localhost:3030
 
 See http://httpbin.org and https://ngrok.com for more information.
 
