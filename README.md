@@ -9,7 +9,7 @@ Pre-Requisites
 Run locally:
 ```sh
 git clone git@github.com:adamchasetaylor/httpbin.git
-cd httpbin
+cd httpbin-ngrok
 docker-compose up
 ```
 
