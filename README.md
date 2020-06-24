@@ -4,6 +4,7 @@
 Pre-Requisites
 - Docker
 - git
+- No running service on Ports 3030, 4040
 
 Run locally:
 ```sh
