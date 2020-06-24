@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM debian:buster-slim
 
 LABEL name="httpbin"
 LABEL version="0.9.2"
