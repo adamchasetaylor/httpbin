@@ -12,11 +12,12 @@ cd httpbin
 docker-compose up
 ```
 
+Load up the Launchpad to find your Ngrok and HTTPBin URLs http://localhost:3030
+
 To exit:
 ```sh
 ctrl+c
 ```
-Load up the Launchpad to find your Ngrok and HTTPBin URLs http://localhost:3030
 
 See http://httpbin.org and https://ngrok.com for more information.
 
@@ -27,4 +28,3 @@ See http://httpbin.org and https://ngrok.com for more information.
 ## Credits
 - [kennethreitz](https://github.com/postmanlabs/httpbin)
 - [wernight](https://github.com/wernight/docker-ngrok)
-
